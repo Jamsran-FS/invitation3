@@ -425,53 +425,6 @@ function PinIcon() {
   );
 }
 
-function HallIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
-      <path
-        d="M4 20V9l8-5 8 5v11"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M9 20v-6h6v6"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function ClockIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
-      <circle cx="12" cy="12" r="8" stroke="currentColor" strokeWidth="1.6" />
-      <path
-        d="M12 8v4l3 2"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-function PhoneIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
-      <path
-        d="M6 4h4l1 4-2.2 1.3a12 12 0 0 0 5.9 5.9L16 13l4 1v4c-8.2 1-15-5.8-14-14z"
-        stroke="currentColor"
-        strokeWidth="1.4"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 function TextIcon() {
   return (
