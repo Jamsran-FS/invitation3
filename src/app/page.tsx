@@ -78,10 +78,13 @@ export default function Home() {
 
   return (
     <div className="page">
-      <main className="shell  ">
+      <main className="shell">
         <header className="hero" id="home">
-          <div className="hero-photo" role="img" aria-label="Хүндэтгэлийн зураг" />
-          <div className="hero-text">
+          <div className="hero-photo" role="img" aria-label="Хүндэтгэлийн зураг">
+            <img src="/bg3.jpg" className="w-full h-full object-cover" alt="Хүндэтгэлийн зураг" />
+            <div className="absolute inset-0 bg-black/50"></div>
+          </div>
+          <div className="hero-text pt-2 align-items-center">
             <span className="hero-badge">ХҮНДЭТГЭЛИЙН ЁСЛОЛ</span>
             <h1 className="hero-title">Гавжийн Дамжаа</h1>
             <div className="hero-subtitle">Урилга</div>
@@ -91,13 +94,13 @@ export default function Home() {
         <div className="content-panel">
           <section className="card card--lifted" id="invite">
             <div className="card-title">Урилга</div>
-            <p className="invite-text">
+            <p className="invite-text font-medium">
               Завхан аймгийн Яруу сумын уугуул,
               Завхан аймгийн Бурхан шашинтны төв Төгс буянт
               Жавхлант хийдийн Цорж лам, өмнөд Энэтхэгийн
               Балдан Брайвүн хийдийн Даш Гоман дацангийн
-              Гэвш-цогромба <span className="text-red-500">БАТСУУРИЙН ЭРХЭМБААТАР</span>-ын
-              <span className="text-red-500">
+              Гэвш-цогромба <span className="text-[#A17553] font-bold">БАТСУУРИЙН ЭРХЭМБААТАР</span>-ын 
+              <span className="text-[#A17553] font-bold ml-[6px]">
                 &ldquo;Гавжийн дамжаа&rdquo;
               </span>{" "}
               барих эрдмийн цол хамгаалах
@@ -111,7 +114,7 @@ export default function Home() {
               <span className="section-marker" />
               <h2 className="section-title">Товч танилцуулга</h2>
             </div>
-            <div className="pattern-card">
+            <div className="pattern-card text-justify">
               <p>
                 Батсуурь овогтой Эрхэмбаатар миний бие аав ээжийнхээ хайр,
                 хамаат садан, багш нар, бурхан шашны сүсэгтэн олны хайр,
@@ -147,7 +150,7 @@ export default function Home() {
                     <item.Icon />
                   </div>
                   <div className="timeline-content">
-                    <div className="timeline-time">{item.time}</div>
+                    <div className="timeline-time font-bold">{item.time}</div>
                     <p className="timeline-title">{item.title}</p>
                   </div>
                 </div>
