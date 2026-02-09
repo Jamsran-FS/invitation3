@@ -132,7 +132,7 @@ a {
   flex-direction: column;
   gap: 10px;
   color: var(--gold-400);
-  text-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
 
 .hero-badge {
