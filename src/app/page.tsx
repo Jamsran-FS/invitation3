@@ -99,7 +99,7 @@ export default function Home() {
               Завхан аймгийн Бурхан шашинтны төв Төгс буянт
               Жавхлант хийдийн Цорж лам, өмнөд Энэтхэгийн
               Балдан Брайвүн хийдийн Даш Гоман дацангийн
-              Гэвш-цогромба <span className="text-[#782930] font-bold">БАТСУУРИЙН ЭРХЭМБААТАР</span>-ын 
+              Гэвш-цогромба <span className="text-[#782930] font-bold">БАТСУУРИЙН ЭРХЭМБААТАР</span> -ын 
               <span className="text-[#782930] font-bold ml-[6px]">
                 &ldquo;Гавжийн дамжаа&rdquo;
               </span>{" "}
