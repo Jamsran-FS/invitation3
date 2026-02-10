@@ -186,7 +186,8 @@ a {
 .card {
   /* background: var(--paper-100); */
   border-radius: var(--radius-xl);
-  padding: 28px 24px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   
   background-color: #FDE296;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
