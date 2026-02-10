@@ -242,7 +242,8 @@ a {
   color: #782930;
   font-style: italic;
   font-weight: 600;
-  font-size: 12px;
+  margin-top: 8px;
+  font-size: 10px;
   text-align: center;
 }
 
