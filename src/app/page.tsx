@@ -93,20 +93,21 @@ export default function Home() {
 
         <div className="content-panel">
           <section className="card card--lifted" id="invite">
-            <div className="card-title">Урилга</div>
+            <div className="card-title text-[#782930]">Урилга</div>
             <p className="invite-text font-medium">
               Завхан аймгийн Яруу сумын уугуул,
               Завхан аймгийн Бурхан шашинтны төв Төгс буянт
               Жавхлант хийдийн Цорж лам, өмнөд Энэтхэгийн
               Балдан Брайвүн хийдийн Даш Гоман дацангийн
-              Гэвш-цогромба <span className="text-[#A17553] font-bold">БАТСУУРИЙН ЭРХЭМБААТАР</span>-ын 
-              <span className="text-[#A17553] font-bold ml-[6px]">
+              Гэвш-цогромба <span className="text-[#782930] font-bold">БАТСУУРИЙН ЭРХЭМБААТАР</span>-ын 
+              <span className="text-[#782930] font-bold ml-[6px]">
                 &ldquo;Гавжийн дамжаа&rdquo;
               </span>{" "}
               барих эрдмийн цол хамгаалах
               ёслолд морилон саатаж хамтдаа буян хураахыг урьж байна.
-            </p>
-            <p className="invite-highlight">Эрдэм номын ариун үйлс дэлгэрэх болтугай.</p>
+            </p> 
+            <p className="invite-highlight text-[#782930] mt-[18px]">Ёслол: 2026.02.21-ны өдрийн 09 цагт эхэлнэ.</p>
+            <p className="invite-highlight2 text-[#782930]">Эрдэм номын ариун үйлс дэлгэрэх болтугай.</p>
           </section>
 
           <section className="section" id="profile">
@@ -165,29 +166,38 @@ export default function Home() {
               <h2 className="section-title">Ёслолын байршил</h2>
             </div>
             <div className="map-card">
+              <div className="detail-row">
+                <span className="detail-label">Хэзээ:</span>
+                <span className="text-justify">
+                  Билгийн тооллын XVII жарны “Сүрийг дарагч” хэмээх гал улаан
+                  морь жилийн хаврын тэргүүн сарын дөрвөн буюу
+                  <span className="text-[#991F2B] font-bold"> 2026.02.21</span>-ны өдөр
+                </span>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Хаана:</span>
+                <span>Гандантэгчэнлин хийдийн Дашчойнпэл дацан</span>
+              </div>
+
               <div className="map-embed" aria-hidden>
-                <iframe
-                  title="Ёслолын газрын байршил"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.722796385405!2d106.8960101!3d47.9224009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9692f6664fffff%3A0xb03a5996ff4302fd!2sDashchoimpil%20Datsan!5e0!3m2!1sen!2smn!4v1770615165418!5m2!1sen!2smn"
-                />
+                <iframe title="Ёслолын газрын байршил" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2673.7318894421737!2d106.89342337641084!3d47.92222497122047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDU1JzIwLjAiTiAxMDbCsDUzJzQ1LjYiRQ!5e0!3m2!1sen!2smn!4v1770722522590!5m2!1sen!2smn"></iframe>
               </div>
               <div className="location-meta">
-                <div className="meta-row">
-                  <span className="meta-icon" aria-hidden>
-                    <PinIcon />
-                  </span>
-                  <div>
-                    Гандантэгчэнлин хийд
-                    <br />
-                    Дашчойнпэл дацан
-                  </div>
-                </div>
+                
               <a
-                className="btn"
-                href="https://maps.app.goo.gl/R2oBoEsTGHVUWGMRA"
+                className="btn mt-4"
+                href="https://maps.app.goo.gl/xCBoGWCQW5pLqXnJA"
                 target="_blank"
                 rel="noreferrer"
               >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-4 h-4"
+                >
+                  <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
+                </svg>
                 Ёслолын газар руу очих
               </a>
             </div>
@@ -203,19 +213,34 @@ export default function Home() {
               <div className="detail-row">
                 <span className="detail-label">Хэзээ:</span>
                 <span className="text-justify">
-                  Билгийн тооллын XVII жарны “Сүрийг дарагч” хэмээх гал улаан
-                  морь жилийн хаврын тэргүүн сарын дөрвөн буюу
-                  2026.02.21-ны өдөр
+                  17 цагт
                 </span>
               </div>
               <div className="detail-row">
                 <span className="detail-label">Хаана:</span>
-                <span>Гандантэгчэнлин хийдийн Дашчойнпэл дацан</span>
+                <span>Гандантэгчэнлин хийдийн Батцагаан дуган, B1 давхар, Даш ресторан</span>
               </div>
               <div className="flex justify-between px-[4px] mt-6 p-4 rounded-lg">
                 <div className="flex items-center gap-2 phone"><CallIcon /><a className="" href="tel:+97691112829">91112829</a></div>
                 <div className="flex items-center gap-2 phone"><CallIcon /><a className="" href="tel:+97699582829">99582829</a></div>
               </div>
+
+              <a
+                className="btn2"
+                href="https://maps.app.goo.gl/pp61ESHcmG59XQ7T7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-4 h-4"
+                >
+                  <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
+                </svg>
+                Цайллагын газар руу очих
+              </a>
             </div>
           </section>
           
