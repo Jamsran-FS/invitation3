@@ -81,8 +81,8 @@ export default function Home() {
       <main className="shell">
         <header className="hero" id="home">
           <div className="hero-photo" role="img" aria-label="Хүндэтгэлийн зураг">
-            <img src="/bg3.jpg" className="w-full h-full object-cover" alt="Хүндэтгэлийн зураг" />
-            <div className="absolute inset-0 bg-black/50"></div>
+            <img src="/background.jpg" className="w-full h-full object-cover" alt="Хүндэтгэлийн зураг" />
+            <div className="absolute inset-0 bg-black/20"></div>
           </div>
           <div className="hero-text pt-2 align-items-center">
             <span className="hero-badge">ХҮНДЭТГЭЛИЙН ЁСЛОЛ</span>

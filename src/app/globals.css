@@ -130,7 +130,7 @@ a {
   bottom: 110px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   color: var(--gold-400);
   text-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
