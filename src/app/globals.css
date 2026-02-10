@@ -209,7 +209,7 @@ a {
 
 .card-title {
   /* font-family: var(--font-title); */
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -220,7 +220,7 @@ a {
 
 .invite-text {
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.75;
   color: #4a2a2c;
   letter-spacing: 0.25px;
