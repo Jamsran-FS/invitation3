@@ -85,8 +85,8 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/20"></div>
           </div>
           <div className="hero-text pt-2 align-items-center">
-            <span className="hero-badge">ХҮНДЭТГЭЛИЙН ЁСЛОЛ</span>
-            <h1 className="hero-title">Гавжийн Дамжаа</h1>
+            <span className="hero-badge text-[#FCC928]">ХҮНДЭТГЭЛИЙН ЁСЛОЛ</span>
+            <h1 className="hero-title text-[#FCC928]">Гавжийн Дамжаа</h1>
             <div className="hero-subtitle">Урилга</div>
           </div>
         </header>
@@ -104,7 +104,7 @@ export default function Home() {
                 &ldquo;Гавжийн дамжаа&rdquo;
               </span>{" "}
               барих эрдмийн цол хамгаалах
-              ёслолд морилон саатахыг урин залж байна.
+              ёслолд морилон саатаж хамтдаа буян хураахыг урьж байна.
             </p>
             <p className="invite-highlight">Эрдэм номын ариун үйлс дэлгэрэх болтугай.</p>
           </section>
@@ -116,24 +116,25 @@ export default function Home() {
             </div>
             <div className="pattern-card text-justify">
               <p>
-                Батсуурь овогтой Эрхэмбаатар миний бие аав ээжийнхээ хайр,
-                хамаат садан, багш нар, бурхан шашны сүсэгтэн олны хайр,
-                буяны хүчлээр 2004 онд МБШТөв-Гандантэгчэнлин хийдийн
+                Батсуурь овогтой Эрхэмбаатар миний бие аав ээжийнхээ хайр 
+                халамжаар эрүүл саруул өсөж, ачит багш нар, буянт хүмүүнтэй
+                учирснаар 2004 онд МБШТөв Гандантэгчэнлин хийдийн
                 Дашчойнпэл дацанд хуврагийн мөр барьж, Бурханы шашны ном
-                сударт суралцах хүсэл бий болсон.
+                сударт суралцаж эхэлсэн билээ.
               </p>
               <p>
-                2005 оноос Бүгд Найрамдах Энэтхэг Улсын Бодхгая Браймэн Даши
-                Гомпа дацанд шавилан сууж, язгуур төрөл багш нарын тушаал
-                ёсны удирдлага дор амь амьдралынхаа чухал үеийг өнгөрүүлсэн.
-                20 жилийн турш их хянан зүтгэсний үрээр 2025 оны 10 дүгээр
-                сарын нэг өдөр Ом манэ падмэ хум номын 1113 удаа гүшг
-                цэвэрлэлийн хурал уншиж, үргэлжлүүлэн хүржих, их хүржих
-                тоглоом ажиллагаа явдалд оролцсоор явна.
+                2005 оноос Бүгд Найрамдах Энэтхэг Улсын Балдан Брайбүн Даш
+                Гоман дацанд шавилан сууж, дээдэс мэргэд багш нарыг түшин
+                буддын гүн ухааны таван ботийн номлолыг сонсох, санах, дадуулахын 
+                үйлд шамдан суралцан, 20 жилийн турш хичээн зүтгэсний үрээр
+                2025 оны 10 дугаар сарын 7-ны өдөр Гоман дацан их эрдэнээс 
+                Гэвш цогромбын хэргэм хүртэх их хувь тохион амжилттай хамгааллаа.
               </p>
               <p>
-                2026 онд Өндөрхэр багшийн урьдчилсан шалгалт өгч, “Гавж”
-                хэмээх эрхэм дээд цол хамгаалах хүндэт үйл явдалд оролцоно.
+                2026 онд өчүүхэн хувраг надад МБШТөв Гандантэгчэнлин хийдийн
+                Дашчойнпэл дацан их эрдэнээс &ldquo;Гавж&rdquo; хэмээх эрхэм
+                дээд цол хамгаалах хүндтэй хувь хайрласныг хүндэтгэн хүлээн 
+                аваад байна.
               </p>
             </div>
           </section>
@@ -155,27 +156,6 @@ export default function Home() {
                   </div>
                 </div>
               ))}
-            </div>
-          </section>
-
-          <section className="section" id="banquet">
-            <div className="section-head">
-              <span className="section-marker" />
-              <h2 className="section-title">Хүндэтгэлийн цайллага</h2>
-            </div>
-            <div className="pattern-card">
-              <div className="detail-row">
-                <span className="detail-label">Хэзээ:</span>
-                <span>
-                  Билгийн тооллын XVII жарны “Суварга дарагч” хэмээх гал улаан
-                  морь жилийн хаврын тэргүүн сарын дөрвөн буюу
-                  2026.02.21-ний өдөр
-                </span>
-              </div>
-              <div className="detail-row">
-                <span className="detail-label">Хаана:</span>
-                <span>Гандантэгчэнлин хийдийн Дашчойнпэл дацан</span>
-              </div>
             </div>
           </section>
 
@@ -214,45 +194,31 @@ export default function Home() {
           </div>
           </section>
 
-          {/* <section className="section" id="reception">
+          <section className="section" id="banquet">
             <div className="section-head">
               <span className="section-marker" />
-              <h2 className="section-title">Цайллагын байршил</h2>
+              <h2 className="section-title">Хүндэтгэлийн цайллага</h2>
             </div>
-            <div className="map-card">
-              <div className="location-meta">
-                <div className="meta-row">
-                  <span className="meta-icon" aria-hidden>
-                    <HallIcon />
-                  </span>
-                  <div>
-                    Grand Hill Event Hall
-                    <br />
-                    17-р давхар, БГД 2
-                  </div>
-                </div>
-                <div className="meta-row">
-                  <span className="meta-icon" aria-hidden>
-                    <ClockIcon />
-                  </span>
-                  <div>17:00 цагт</div>
-                </div>
-                <div className="meta-row">
-                  <span className="meta-icon" aria-hidden>
-                    <PhoneIcon />
-                  </span>
-                  <div>
-                    <a href="tel:+97689933013">89933013</a> ·{" "}
-                    <a href="tel:+97699049740">99049740</a>
-                  </div>
-                </div>
-                <a className="btn btn--dark" href="https://maps.google.com">
-                  Цайллагын газар руу очих
-                </a>
+            <div className="pattern-card">
+              <div className="detail-row">
+                <span className="detail-label">Хэзээ:</span>
+                <span className="text-justify">
+                  Билгийн тооллын XVII жарны “Сүрийг дарагч” хэмээх гал улаан
+                  морь жилийн хаврын тэргүүн сарын дөрвөн буюу
+                  2026.02.21-ны өдөр
+                </span>
+              </div>
+              <div className="detail-row">
+                <span className="detail-label">Хаана:</span>
+                <span>Гандантэгчэнлин хийдийн Дашчойнпэл дацан</span>
+              </div>
+              <div className="flex justify-between px-[4px] mt-6 p-4 rounded-lg">
+                <div className="flex items-center gap-2 phone"><CallIcon /><a className="" href="tel:+97691112829">91112829</a></div>
+                <div className="flex items-center gap-2 phone"><CallIcon /><a className="" href="tel:+97699582829">99582829</a></div>
               </div>
             </div>
-          </section> */}
-{/* © 2026 Гавжийн Дамжаа */}
+          </section>
+          
           <footer className="footer"></footer>
         </div>
 
@@ -271,6 +237,25 @@ export default function Home() {
         </nav>
       </main>
     </div>
+  );
+}
+
+function CallIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-5 h-5"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M2.25 6.75c0 8.284 6.716 15 15 15h1.5a1.5 1.5 0 001.5-1.5v-3.75a1.5 1.5 0 00-1.5-1.5h-3.75a1.5 1.5 0 00-1.5 1.5v.375c0 .621-.504 1.125-1.125 1.125a12.375 12.375 0 01-6.75-6.75c0-.621.504-1.125 1.125-1.125h.375a1.5 1.5 0 001.5-1.5V5.25a1.5 1.5 0 00-1.5-1.5H3.75a1.5 1.5 0 00-1.5 1.5v1.5z"
+      />
+    </svg>
   );
 }
 
